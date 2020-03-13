@@ -1,0 +1,159 @@
+#include <stdio.h>
+
+int main()
+
+{
+    //A program to calculate the CGPA of a student 
+    int CPE362, CPE312, CPE314, CPE344, CPE322, CPE324, CPE302, CPE382, CPE372;
+
+printf("PRESS THE SPACE BUTTON AFTER EACH ENTRY! THEN CLICK ENTER(NOTE:since there are only nine courses, each entry per request should be nine.)");
+    printf("\n Enter the different scores of each course: ");
+    scanf("%d%d%d%d%d%d%d%d%d", &CPE362, &CPE312, &CPE314, &CPE344, &CPE322, &CPE324, &CPE302, &CPE382, &CPE372);
+
+
+if(CPE362>=70){
+        printf("Cpe362: Grade A \n");
+    }else if(CPE362 >= 60){
+    printf("Cpe362: Grade B \n");
+    }else if(CPE362 >= 50){
+    printf("Cpe362: Grade C \n");
+    }else if(CPE362 >= 45){
+    printf("Cpe362: Grade D \n");
+    }else if(CPE362 >= 40){
+    printf("Cpe362: Grade E \n");
+    }else if(CPE362 >= 0){
+        printf("Cpe362: Grade F \n");
+    }
+
+    if(CPE312>=70){
+        printf("Cpe312: Grade A \n");
+    }else if(CPE312 >= 60){
+    printf("Cpe312: Grade B \n");
+    }else if(CPE312 >= 50){
+    printf("Cpe312: Grade C \n");
+    }else if(CPE312 >= 45){
+    printf("Cpe312: Grade D \n");
+    }else if(CPE312 >= 40){
+    printf("Cpe312: Grade E \n");
+    }else if(CPE312 >= 0){
+    printf("Cpe312: Grade F \n");
+    }
+
+    if(CPE314>=70){
+        printf("Cpe314: Grade A \n");
+    }else if(CPE314 >= 60){
+    printf("Cpe314: Grade B \n");
+    }else if(CPE314 >= 50){
+    printf("Cpe314: Grade C \n");
+    }else if(CPE314 >= 45){
+    printf("Cpe314: Grade D \n");
+        }else if(CPE314 >= 40){
+    printf("Cpe314: Grade E \n");
+    }else if(CPE314 >= 0){
+    printf("Cpe314: Grade F \n");
+    }
+
+if(CPE344>=70){
+        printf("Cpe344: Grade A \n");
+    }else if(CPE344 >= 60){
+    printf("Cpe344: Grade B \n");
+    }else if(CPE344 >= 50){
+    printf("Cpe344: Grade C \n");
+    }else if(CPE344 >= 45){
+    printf("Cpe344: Grade D \n");
+    }else if(CPE344 >= 40){
+    printf("Cpe344: Grade E \n");
+    }else if(CPE344 >= 0){
+    printf("Cpe344: Grade F \n");
+    }
+
+    if(CPE322>=70){
+        printf("Cpe322: Grade A \n");
+    }else if(CPE322 >= 60){
+    printf("Cpe322: Grade B \n");
+    }else if(CPE322 >= 50){
+    printf("Cpe322: Grade C \n");
+    }else if(CPE322 >= 45){
+    printf("Cpe322: Grade D \n");
+    }else if(CPE322 >= 40){
+    printf("Cpe322: Grade E \n");
+    }else if(CPE322 >= 0){
+    printf("Cpe322: Grade F \n");
+    }
+
+    if(CPE324>=70){
+        printf("Cpe324: Grade A \n");
+    }else if(CPE324 >= 60){
+    printf("Cpe324: Grade B \n");
+    }else if(CPE324 >= 50){
+    printf("Cpe324: Grade C \n");
+    }else if(CPE324 >= 45){
+    printf("Cpe324: Grade D \n");
+    }else if(CPE324 >= 40){
+    printf("Cpe324: Grade E \n");
+    }else if(CPE324 >= 0){
+    printf("Cpe324: Grade F \n");
+    }
+
+    if(CPE302>=70){
+        printf("Cpe302: Grade A \n");
+            }else if(CPE302 >= 60){
+    printf("Cpe302: Grade B \n");
+    }else if(CPE302 >= 50){
+    printf("Cpe302: Grade C \n");
+    }else if(CPE302 >= 45){
+    printf("Cpe302: Grade D \n");
+    }else if(CPE302 >= 40){
+    printf("Cpe302: Grade E \n");
+    }else if(CPE302 >= 0){
+    printf("Cpe302: Grade F \n");
+    }
+
+    if(CPE382>=70){
+        printf("Cpe382: Grade A \n");
+    }else if(CPE382>= 60){
+    printf("Cpe382: Grade B \n");
+    }else if(CPE382 >= 50){
+    printf("Cpe382: Grade C \n");
+    }else if(CPE382 >= 45){
+    printf("Cpe382: Grade D \n");
+    }else if(CPE382 >= 40){
+    printf("Cpe382: Grade E \n");
+    }else if(CPE382 >= 0){
+    printf("Cpe382: Grade F \n");
+    }
+
+    if( CPE372>=70){
+        printf("Cpe372: Grade A \n");
+    }else if( CPE372 >= 60){
+    printf("Cpe372: Grade B \n");
+    }else if( CPE372 >= 50){
+    printf("Cpe372: Grade C \n");
+    }else if( CPE372 >= 45){
+    printf("Cpe372: Grade D \n");
+    }else if( CPE372 >= 40){
+    printf("Cpe372: Grade E \n");
+    }else if( CPE372 >= 0){
+    printf("Cpe372: Grade F \n");
+    }
+
+int Cpe362, Cpe312, Cpe314, Cpe344, Cpe322, Cpe324, Cpe302, Cpe382, Cpe372;
+     int cpe362, cpe312, cpe314, cpe344, cpe322, cpe324, cpe302, cpe382, cpe372;
+     float CGPA;
+
+printf(" All courses are arranged in the same order");
+
+printf("\nEnter the credit load of each course: ");
+
+scanf("%d%d%d%d%d%d%d%d%d", &Cpe362, &Cpe312, &Cpe314, &Cpe344, &Cpe322, &Cpe324, &Cpe302, &Cpe382, &Cpe372);
+  printf("The various Grade points are: A=5, B=4, C=3, D=2, E=1, F=0");
+  
+     printf("\n Enter your Grade point for each course: ");
+   
+   scanf("%d%d%d%d%d%d%d%d%d", &cpe362, &cpe312, &cpe314, &cpe344, &cpe322, &cpe324, &cpe302, &cpe382, &cpe372);
+        CGPA = ((Cpe362*cpe362) + (Cpe312*cpe312) + (Cpe314*cpe314) + (Cpe344*cpe344) + (Cpe322*cpe322) + (Cpe324*cpe324) + (Cpe302*cpe302) + (Cpe382*cpe382) + (Cpe372*cpe372))/21.0;
+    printf("\nYour cgpa is %.3f", CGPA);
+
+
+    return 0;
+}
